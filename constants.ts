@@ -15,7 +15,7 @@ export const ARTWORKS: Artwork[] = [
     category: "Generative Art",
     year: "2024",
     description: "An exploration of algorithmic patterns mimicking natural nebular structures.",
-    imageUrl: "https://picsum.photos/seed/art1/1200/1600",
+    imageUrl: "https://static.eeo.cn/upload/file/20251219/1766078281350508.jpg",
     dimensions: "Digital Projection",
     medium: "Custom Shader Engine"
   },
@@ -25,7 +25,7 @@ export const ARTWORKS: Artwork[] = [
     category: "Digital Photography",
     year: "2023",
     description: "Capturing the stillness within the movement of high-speed urban transit.",
-    imageUrl: "https://picsum.photos/seed/art2/1600/1000",
+    imageUrl: "https://static.eeo.cn/upload/images/20251219/143281f9495cf8448440.jpg",
     dimensions: "120 x 80 cm",
     medium: "Fine Art Giclée Print"
   },
@@ -35,7 +35,7 @@ export const ARTWORKS: Artwork[] = [
     category: "3D Sculpture",
     year: "2024",
     description: "Bio-morphic structures rendered to challenge the perception of weight.",
-    imageUrl: "https://picsum.photos/seed/art3/1200/1400",
+    imageUrl: "https://xiaoiwg.dongfeng-nissan.com.cn/aicc-workbench/res/download/default/temp/images/20251219/289be780ce5fe33f34e0dfe5cd6f4f765a3b1d1e.jpg",
     dimensions: "AR Interactive",
     medium: "WebGL / Three.js"
   },
@@ -45,7 +45,7 @@ export const ARTWORKS: Artwork[] = [
     category: "Mixed Media",
     year: "2023",
     description: "The interplay of digital shadows cast by virtual light sources.",
-    imageUrl: "https://picsum.photos/seed/art4/1000/1500",
+    imageUrl: "https://static.eeo.cn/upload/file/20251219/1766078403103015.jpg",
     dimensions: "Variable",
     medium: "Interactive Installation"
   },
@@ -55,8 +55,38 @@ export const ARTWORKS: Artwork[] = [
     category: "Digital Painting",
     year: "2024",
     description: "A meditative study on the colors of the horizon during twilight.",
-    imageUrl: "https://picsum.photos/seed/art5/1600/900",
+    imageUrl: "https://help.hemorn.com/static/upload/2025December/67297ea2998d0f0da1d04c4dbe1b2781.jpg",
     dimensions: "200 x 100 cm",
     medium: "Digital Canvas"
+  },
+  {
+    id: "06",
+    title: "Digital Monolith",
+    category: "Algorithmic Sculpture",
+    year: "2024",
+    description: "A study on the brutalist nature of digital structures in empty space.",
+    imageUrl: "https://help.hemorn.com/static/upload/2025December/73992e799f8503e758add137f5a2d6b3.jpg",
+    dimensions: "Digital Loop",
+    medium: "C++ / OpenFrameworks"
+  },
+  {
+    id: "07",
+    title: "Synthetic Dreams",
+    category: "AI Narrative",
+    year: "2024",
+    description: "Visualizing the latent space between human memory and machine learning.",
+    imageUrl: "https://saas.chatbot.cn/download/minio/standard/2025-12-19/85e1230cd58b44c9a6843e53c54873f5.jpg",
+    dimensions: "8K UHD",
+    medium: "Neural Network Visualization"
+  },
+  {
+    id: "08",
+    title: "Neural Landscapes",
+    category: "Virtual Reality",
+    year: "2024",
+    description: "An immersive environment mapping the electrical signals of the brain into physical terrain.",
+    imageUrl: "https://kycloud4.koyoo.cn/20251219565d4202512190130468376.jpg",
+    dimensions: "VR Experience",
+    medium: "Unreal Engine 5"
   }
 ];
