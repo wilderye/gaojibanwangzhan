@@ -15,7 +15,8 @@ export const ARTWORKS: Artwork[] = [
     category: "Generative Art",
     year: "2024",
     description: "An exploration of algorithmic patterns mimicking natural nebular structures.",
-    imageUrl: "https://static.eeo.cn/upload/file/20251219/1766078281350508.jpg",
+    // Updated to use your local file
+    imageUrl: "images/cover1.jpg",
     dimensions: "Digital Projection",
     medium: "Custom Shader Engine"
   },
@@ -25,7 +26,8 @@ export const ARTWORKS: Artwork[] = [
     category: "Digital Photography",
     year: "2023",
     description: "Capturing the stillness within the movement of high-speed urban transit.",
-    imageUrl: "https://static.eeo.cn/upload/images/20251219/143281f9495cf8448440.jpg",
+    // Updated to use your local file
+    imageUrl: "images/cover2.jpg",
     dimensions: "120 x 80 cm",
     medium: "Fine Art Giclée Print"
   },
