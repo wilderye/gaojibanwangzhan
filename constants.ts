@@ -78,15 +78,5 @@ export const ARTWORKS: Artwork[] = [
     imageUrl: "https://saas.chatbot.cn/download/minio/standard/2025-12-19/85e1230cd58b44c9a6843e53c54873f5.jpg",
     dimensions: "8K UHD",
     medium: "Neural Network Visualization"
-  },
-  {
-    id: "08",
-    title: "Neural Landscapes",
-    category: "Virtual Reality",
-    year: "2024",
-    description: "An immersive environment mapping the electrical signals of the brain into physical terrain.",
-    imageUrl: "https://kycloud4.koyoo.cn/20251219565d4202512190130468376.jpg",
-    dimensions: "VR Experience",
-    medium: "Unreal Engine 5"
   }
 ];
