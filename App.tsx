@@ -83,8 +83,24 @@ const App: React.FC = () => {
       <HorizontalGallery onSelect={setSelectedArtwork} />
 
       {/* Epilogue / Footer */}
-      <section className="min-h-screen flex flex-col items-center justify-center p-12 bg-zinc-950">
-        <div className="max-w-4xl text-center">
+      <section className="relative min-h-screen flex flex-col items-center justify-center p-12 bg-zinc-950 overflow-hidden">
+        {/* Video Overlay Background */}
+        <div className="absolute inset-0 z-0 opacity-50 mix-blend-screen pointer-events-none">
+          <video 
+            autoPlay 
+            muted 
+            loop 
+            playsInline
+            className="w-full h-full object-cover"
+          >
+            <source 
+              src="https://testingcf.jsdelivr.net/gh/wilderye/resource@main/video/Blue%20crystal-like%20light%20leak%20overlay.mp4" 
+              type="video/mp4" 
+            />
+          </video>
+        </div>
+        
+        <div className="relative z-10 max-w-4xl text-center">
           <h2 className="text-5xl md:text-8xl font-serif italic mb-12">Fin.</h2>
           <p className="text-xl text-zinc-500 mb-24 font-light leading-relaxed">
             {EXHIBITION_INFO.curatorialStatement}

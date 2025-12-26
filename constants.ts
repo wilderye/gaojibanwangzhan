@@ -15,8 +15,8 @@ export const ARTWORKS: Artwork[] = [
     category: "Generative Art",
     year: "2024",
     description: "An exploration of algorithmic patterns mimicking natural nebular structures.",
-    // Updated to a highly available abstract liquid art image
-    imageUrl: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2048&auto=format&fit=crop",
+    // Updated to user-provided custom CDN URL
+    imageUrl: "https://testingcf.jsdelivr.net/gh/wilderye/resource/images/cover1.jpg",
     dimensions: "Digital Projection",
     medium: "Custom Shader Engine"
   },
@@ -26,8 +26,8 @@ export const ARTWORKS: Artwork[] = [
     category: "Digital Photography",
     year: "2023",
     description: "Capturing the stillness within the movement of high-speed urban transit.",
-    // Updated to a high-contrast city motion blur image (more reliable node)
-    imageUrl: "https://images.unsplash.com/photo-1492552181161-62217fc3076d?q=80&w=2048&auto=format&fit=crop",
+    // Updated to user-provided custom CDN URL
+    imageUrl: "https://testingcf.jsdelivr.net/gh/wilderye/resource/images/cover2.jpg",
     dimensions: "120 x 80 cm",
     medium: "Fine Art Giclée Print"
   },
